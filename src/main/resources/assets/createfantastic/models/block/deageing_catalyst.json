@@ -1,0 +1,7 @@
+{
+  "parent": "createfantastic:block/catalyst",
+  "textures": {
+    "0": "createfantastic:block/deageing_catalyst",
+    "particle": "minecraft:block/sand"
+  }
+}

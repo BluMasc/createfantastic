@@ -1,0 +1,7 @@
+{
+  "parent": "createfantastic:block/catalyst",
+  "textures": {
+    "0": "createfantastic:block/cursing_catalyst",
+    "particle": "minecraft:block/obsidian"
+  }
+}

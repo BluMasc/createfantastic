@@ -1,0 +1,7 @@
+{
+  "parent": "createfantastic:block/catalyst",
+  "textures": {
+    "0": "createfantastic:block/mutating_catalyst",
+    "particle": "minecraft:block/moss_block"
+  }
+}

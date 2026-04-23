@@ -1,0 +1,13 @@
+{
+  "type": "createfantastic:enchanting",
+  "ingredients": [
+    {
+      "item": "minecraft:bedrock"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:basalt"
+    }
+  ]
+}

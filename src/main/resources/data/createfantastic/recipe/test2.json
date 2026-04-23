@@ -1,0 +1,13 @@
+{
+  "type": "createfantastic:mutating",
+  "ingredients": [
+    {
+      "item": "minecraft:bedrock"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:basalt"
+    }
+  ]
+}

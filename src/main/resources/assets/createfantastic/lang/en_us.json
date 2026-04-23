@@ -1,0 +1,22 @@
+{
+  "createfantastic.recipe.fan_enchanting": "Fan Enchanting",
+  "createfantastic.recipe.fan_enchanting.fan": "Enchanting Fan",
+  "createfantastic.recipe.fan_mutating": "Fan Mutating",
+  "createfantastic.recipe.fan_mutating.fan": "Mutating Fan",
+  "createfantastic.recipe.fan_cursing": "Fan Cursing",
+  "createfantastic.recipe.fan_cursing.fan": "Cursing Fan",
+  "createfantastic.recipe.fan_sculking": "Fan Sculking",
+  "createfantastic.recipe.fan_sculking.fan": "Sculking Fan",
+  "createfantastic.recipe.fan_ageing": "Fan Ageing",
+  "createfantastic.recipe.fan_ageing.fan": "Ageing Fan",
+  "createfantastic.recipe.fan_deageing": "Fan Deageing",
+  "createfantastic.recipe.fan_deageing.fan": "Deageing Fan",
+  "itemGroup.create_fantastic": "Create:Fantastic",
+
+  "block.createfantastic.mutating_catalyst": "Mutation Catalyst",
+  "block.createfantastic.enchanting_catalyst": "Enchantment Catalyst",
+  "block.createfantastic.cursing_catalyst": "Curse Catalyst",
+  "block.createfantastic.sculking_catalyst": "Sculking Catalyst",
+  "block.createfantastic.ageing_catalyst": "Ageing Catalyst",
+  "block.createfantastic.deageing_catalyst": "Deageing Catalyst"
+}

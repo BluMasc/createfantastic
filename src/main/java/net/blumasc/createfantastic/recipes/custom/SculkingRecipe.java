@@ -1,0 +1,33 @@
+package net.blumasc.createfantastic.recipes.custom;
+
+import com.simibubi.create.content.processing.recipe.ProcessingRecipeParams;
+import com.simibubi.create.content.processing.recipe.StandardProcessingRecipe;
+import net.blumasc.createfantastic.recipes.ModRecipes;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.crafting.SingleRecipeInput;
+import net.minecraft.world.level.Level;
+
+public class SculkingRecipe extends StandardProcessingRecipe<SingleRecipeInput> {
+    public SculkingRecipe(ProcessingRecipeParams params) {
+        super(ModRecipes.SCULKING, params);
+    }
+
+    @Override
+    protected int getMaxInputCount() {
+        return 1;
+    }
+
+    @Override
+    protected int getMaxOutputCount() {
+        return 12;
+    }
+
+    @Override
+    public boolean matches(SingleRecipeInput input, Level level) {
+        return getIngredients().getFirst().test(input.item());
+    }
+
+    public static Builder<SculkingRecipe> builder(ResourceLocation id) {
+        return new Builder<>(SculkingRecipe::new, id);
+    }
+}

@@ -7,6 +7,7 @@ import net.blumasc.createfantastic.util.ModTags;
 import net.createmod.catnip.theme.Color;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.entity.Entity;
@@ -75,8 +76,10 @@ public class AgeingFanProcessingType implements FanProcessingType {
 
     @Override
     public void affectEntity(Entity entity, Level level) {
+        if (!(level instanceof ServerLevel server)) return;
+        if(level.random.nextFloat()>0.1) return;
         if (entity instanceof AgeableMob ageable && ageable.isBaby()) {
-            ageable.setAge(ageable.getAge() + 1000);
+            ageable.setAge(ageable.getAge() + 10);
         }
     }
 }

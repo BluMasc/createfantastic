@@ -78,6 +78,7 @@ public class MutatingFanProcessingType implements FanProcessingType {
     @Override
     public void affectEntity(Entity target, Level level) {
         if (!(level instanceof ServerLevel server)) return;
+        if(level.random.nextFloat()>0.03) return;
 
         LightningBolt bolt = EntityType.LIGHTNING_BOLT.create(level);
         if (bolt == null) return;
